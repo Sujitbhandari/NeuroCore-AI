@@ -79,23 +79,6 @@ make
 python ../scripts/visualize.py
 ```
 
-## Project Structure
-
-```
-NeuroCore AI/
-├── src/              # C++ source files
-│   ├── main.cpp      # Training entry point
-│   ├── Matrix.cpp    # Matrix operations with OpenMP
-│   └── Network.cpp   # Neural network implementation
-├── include/          # C++ header files
-│   ├── Matrix.h
-│   └── Network.h
-├── scripts/          # Python utilities
-│   ├── data_loader.py    # MNIST data preprocessing
-│   └── visualize.py      # Training visualization
-└── data/             # Data files and outputs
-```
-
 ## Implementation Details
 
 ### Backpropagation
