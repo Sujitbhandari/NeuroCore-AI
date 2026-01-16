@@ -1,27 +1,27 @@
 # NeuroCore
 
-A deep learning engine implemented from scratch in C++ for handwritten digit classification on the MNIST dataset. This project implements core neural network algorithms including backpropagation, gradient descent, and proper weight initialization without relying on machine learning frameworks.
+A neural network implementation in C++ for MNIST digit classification. Built from scratch without machine learning frameworks to demonstrate understanding of backpropagation, gradient descent, and weight initialization algorithms.
 
 ## Overview
 
-NeuroCore demonstrates understanding of neural network fundamentals by implementing:
+The project implements:
 
 - Custom matrix operations with OpenMP parallelization
-- Manual backpropagation algorithm using the chain rule
-- ReLU and Sigmoid activation functions with proper derivatives
+- Manual backpropagation using the chain rule
+- ReLU and Sigmoid activation functions
 - He initialization for ReLU layers
-- Stochastic Gradient Descent (SGD) optimizer
+- Stochastic Gradient Descent optimizer
 - Model serialization and training visualization
 
-The network achieves 88% accuracy on MNIST test set after 20 epochs of training.
+Achieves 88% accuracy on MNIST test set after 20 epochs.
 
 ## Architecture
 
-The project uses a hybrid C++/Python architecture:
+Hybrid C++/Python design:
 
-- C++ Core Engine: Neural network implementation with custom matrix class
-- Python Scripts: Data preprocessing and visualization utilities
-- OpenMP: Parallel matrix operations for improved performance
+- C++ Core Engine: Neural network with custom matrix class
+- Python Scripts: Data preprocessing and visualization
+- OpenMP: Parallel matrix operations
 
 ### Network Configuration
 
@@ -34,9 +34,9 @@ The project uses a hybrid C++/Python architecture:
 ## Technologies
 
 - C++17
-- OpenMP (parallel computing)
-- CMake (build system)
-- Python 3 (data processing, visualization)
+- OpenMP
+- CMake
+- Python 3
 - NumPy, Pandas, Matplotlib, scikit-learn
 
 ## Building and Running
