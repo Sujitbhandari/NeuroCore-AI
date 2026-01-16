@@ -19,9 +19,9 @@ The network achieves 88% accuracy on MNIST test set after 20 epochs of training.
 
 The project uses a hybrid C++/Python architecture:
 
-- **C++ Core Engine**: Neural network implementation with custom matrix class
-- **Python Scripts**: Data preprocessing and visualization utilities
-- **OpenMP**: Parallel matrix operations for improved performance
+- C++ Core Engine: Neural network implementation with custom matrix class
+- Python Scripts: Data preprocessing and visualization utilities
+- OpenMP: Parallel matrix operations for improved performance
 
 ### Network Configuration
 
@@ -125,9 +125,9 @@ L = (1/2) · ||y_pred - y_true||²
 ## Output Files
 
 After training:
-- `data/training_log.csv`: Epoch-by-epoch loss and accuracy
-- `data/neurocore_model.json`: Serialized model weights and biases
-- `data/training_curves.png`: Training visualization plots
+- data/training_log.csv: Epoch-by-epoch loss and accuracy
+- data/neurocore_model.json: Serialized model weights and biases
+- data/training_curves.png: Training visualization plots
 
 ## Skills Demonstrated
 
